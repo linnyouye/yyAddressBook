@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddd"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@drawable/title_bar_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnTitle"
+            style="@style/TitleButton"
+            android:drawableLeft="@drawable/icon_back"
+            android:text="@string/edit_image" />
+
+        <ImageButton
+            android:id="@+id/ibtnOk"
+            style="@style/TitleBarIbtn"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/ibtn_description"
+            android:src="@drawable/icon_ok" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <com.edmodo.cropper.CropImageView
+            android:id="@+id/edit_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+        </com.edmodo.cropper.CropImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:background="@drawable/bottom_bar_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnRotate"
+            style="@style/BottomIbtn"
+            android:text="@string/edit_rotate" />
+
+        <LinearLayout style="@style/BottomDivider" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnTurn"
+            style="@style/BottomIbtn"
+            android:text="@string/edit_turn" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/AndroidStudioProjects/yyAddressBook/yyAddressBook/src/main/res/layout/edit_image_activity.xml -->

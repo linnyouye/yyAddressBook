@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/TitleBar" >
+
+        <Button
+            android:id="@+id/btnTitle"
+            style="@style/TitleButton" />
+
+        <ImageButton
+            android:id="@+id/ibtnOk"
+            style="@style/TitleBarIbtn"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/ibtn_description"
+            android:src="@drawable/icon_ok" />
+    </RelativeLayout>
+
+    <ScrollView style="@style/MyScrollView" >
+
+        <LinearLayout style="@style/ScrollViewContainer" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/ibtnAvatars"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/item_single_selector"
+                    android:contentDescription="@string/ibtn_description"
+                    android:padding="3dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_avatars" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/ibtnCall"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_blue_selector"
+                        android:contentDescription="@string/ibtn_description"
+                        android:src="@drawable/icon_call_pressed"
+                        android:text="@string/contact_ok" />
+
+                    <ImageButton
+                        android:id="@+id/ibtnSms"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_green_selector"
+                        android:contentDescription="@string/ibtn_description"
+                        android:src="@drawable/icon_sms_pressed"
+                        android:text="@string/contact_ok" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/WholeItem" >
+
+                <LinearLayout
+                    android:id="@+id/nameView"
+                    style="@style/FirstItem" >
+
+                    <TextView
+                        style="@style/ItemLeftText"
+                        android:layout_weight="1"
+                        android:text="@string/contact_name" />
+
+                    <TextView
+                        android:id="@+id/tvName"
+                        style="@style/ItemRightText"
+                        android:layout_weight="2"
+                        android:drawableRight="@drawable/icon_edit" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/ItemDivider" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/phoneView"
+                    style="@style/MiddleItem" >
+
+                    <TextView
+                        style="@style/ItemLeftText"
+                        android:layout_weight="1"
+                        android:text="@string/contact_phone" />
+
+                    <TextView
+                        android:id="@+id/tvPhone"
+                        style="@style/ItemRightText"
+                        android:layout_weight="2"
+                        android:drawableRight="@drawable/icon_edit" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/ItemDivider" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/groupView"
+                    style="@style/LastItem"
+                    android:clickable="false" >
+
+                    <TextView
+                        style="@style/ItemLeftText"
+                        android:layout_weight="1"
+                        android:text="@string/contact_group" />
+
+                    <com.lyy.yyaddressbook.ui.StringArraySpinner
+                        android:id="@+id/spGroup"
+                        style="@style/ItemSpinner"
+                        android:layout_weight="2" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnDelete"
+                style="@style/BigButton"
+                android:background="@drawable/btn_red_selector"
+                android:text="@string/delete_contact" />
+
+            <Button
+                android:id="@+id/btnAd"
+                style="@style/BigButton"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/btn_blue_selector"
+                android:text="@string/show_ad"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

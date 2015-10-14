@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/titleBar"
+        style="@style/TitleBar" >
+
+        <Button
+            android:id="@+id/btnTitle"
+            style="@style/TitleButton" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_bar_height"
+        layout="@layout/edit_bar_top"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:layout_alignParentBottom="true"
+        layout="@layout/edit_bar_bottom"
+        android:visibility="gone" />
+
+    <com.lyy.widget.PinnedHeaderListView
+        android:id="@+id/phListView"
+        style="@style/ListView"
+        android:layout_above="@id/bottomBar"
+        android:layout_below="@id/titleBar" >
+    </com.lyy.widget.PinnedHeaderListView>
+
+    <com.lyy.yyaddressbook.ui.IndexBar
+        android:id="@+id/indexBar"
+        android:layout_width="@dimen/index_bar_width"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomBar"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/titleBar" />
+
+    <TextView
+        android:id="@+id/tvChar"
+        android:layout_width="@dimen/tv_char_width"
+        android:layout_height="@dimen/tv_char_height"
+        android:layout_below="@id/titleBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/tv_char_bg"
+        android:gravity="center"
+        android:shadowColor="#fff"
+        android:shadowRadius="3"
+        android:textColor="#fff"
+        android:textSize="@dimen/tv_char_size"
+        android:visibility="gone" />
+
+</RelativeLayout>

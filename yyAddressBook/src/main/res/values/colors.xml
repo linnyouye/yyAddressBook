@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- from samton -->
+    <color name="item_left_text">#77787b</color>
+    <color name="item_right_text">#3333ff</color>
+    <color name="title_bg">#009ad6</color>
+    <color name="listview_bg">#dddddd</color>
+    <color name="bottom_bar_line">#999999</color>
+    <color name="bottom_btn_text">#fff</color>
+    <color name="title_bar_text">#fff</color>
+    <color name="btn_ok_text">#fff</color>
+    <color name="blue_normal">#dd33a3dc</color>
+    <color name="blue_pressed">#2468a2</color>
+    <color name="green_normal">#66ee66</color>
+    <color name="green_pressed">#336a2f</color>
+    <color name="red_normal">#ef4136</color>
+    <color name="red_pressed">#aa2116</color>
+    <color name="black_light">#555</color>
+    <color name="black_normal">#333</color>
+    <color name="black_dark">#111</color>
+    <color name="btn_back_text_normal">#333333</color>
+    <color name="btn_back_text_pressed">#883333ff</color>
+
+    <!-- tab_bar -->
+    <color name="tab_bar_bg">#fff</color>
+    <color name="tab_indicator">#880000ff</color>
+    <color name="rb_text_normal">#000</color>
+    <color name="rb_text_selected">#880000ff</color>
+    <!-- child_view -->
+    <color name="name_normal">#444</color>
+    <color name="name_pressed">#880000ff</color>
+    <color name="phone_normal">#888</color>
+    <color name="phone_pressed">#880000ff</color>
+    <!--  -->
+    <color name="child_bg_pressed">#ffffff</color>
+    <color name="list_divider">#cccccc</color>
+    <color name="title_text">#880000ff</color>
+    <color name="group_bg">#ffffff</color>
+    <color name="group_text">#000</color>
+    <color name="group_name">#000</color>
+    <color name="ibtn_pressed">#88999999</color>
+    <color name="bottom_bar_bg">#888</color>
+
+    <!--  -->
+    <color name="dialog_bg">#ffff</color>
+    <color name="listitem_bg_normal">#f2f2f2</color>
+    <color name="listitem_bg_pressed">#fff</color>
+
+    <!-- Linear item -->
+    <color name="item_line_dark">#7777</color>
+    <color name="item_line_light">#fff</color>
+    <color name="item_bg_pressed">#55ff55</color>
+    <color name="item_bg_normal">#fff</color>
+
+</resources>

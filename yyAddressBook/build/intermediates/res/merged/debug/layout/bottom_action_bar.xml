@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_bar_bg"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/ibtnSearch"
+        style="@style/BottomIbtn"
+        android:layout_width="0dp"
+        android:layout_weight="0"
+        android:contentDescription="@string/ibtn_description"
+        android:padding="10dp"
+        android:src="@drawable/icon_search" />
+
+    <ImageButton
+        android:id="@+id/ibtnAdd"
+        style="@style/BottomIbtn"
+        android:contentDescription="@string/ibtn_description"
+        android:padding="10dp"
+        android:src="@drawable/icon_add_" />
+
+</LinearLayout><!-- From: file:/D:/AndroidStudioProjects/yyAddressBook/yyAddressBook/src/main/res/layout/bottom_action_bar.xml -->

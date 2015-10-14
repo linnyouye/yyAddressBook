@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <gradient
+        android:angle="270"
+        android:centerColor="#66ee66"
+        android:endColor="#00ff00"
+        android:startColor="#66ee66" />
+
+    <corners android:radius="25dp" />
+
+</shape><!-- From: file:/D:/AndroidStudioProjects/yyAddressBook/yyAddressBook/src/main/res/drawable/btn_call_normal.xml -->

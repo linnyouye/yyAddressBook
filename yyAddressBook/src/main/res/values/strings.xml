@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">优优通讯录</string>
+    <string name="ibtn_description"></string>
+    <!-- MainActivity -->
+    <string name="search_hint">搜索联系人</string>
+    <string name="tab_contact">全部联系人</string>
+    <string name="tab_group">分组</string>
+    <string name="tab_dialing">拨号</string>
+    <!-- ContactInfoActivity -->
+    <string name="add_contact">添加联系人</string>
+    <string name="edit_contact">编辑联系人</string>
+    <string name="delete_contact">删除联系人</string>
+    <string name="show_ad">看广告</string>
+    <string name="confirm_delete_contact">是否确定删除联系人？</string>
+    <string name="contact_info">联系人信息</string>
+    <string name="contact_name">姓名</string>
+    <string name="contact_phone">号码</string>
+    <string name="contact_group">分组</string>
+    <string name="contact_ok">确定</string>
+    <!--  -->
+    <string name="contact_num">%d 位联系人</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="alert">注意</string>
+    <string name="select_all">全选</string>
+    <!-- GroupFragment -->
+    <string name="default_group_name">未分组</string>
+    <string name="add_group">添加分组</string>
+    <string name="edit_group">修改分组名称</string>
+    <string name="delete_group">删除该组</string>
+    <string name="confirm_delete_group">[%s] 分组内的联系人将被移动到 [未分组]</string>
+    <!-- PickImg -->
+    <string name="pick_image">选择图片</string>
+    <string name="take_photo">拍照</string>
+    <string name="select_photo">从相册中选择</string>
+    <!-- Edit image -->
+    <string name="edit_image">编辑图片</string>
+    <string name="edit_turn">翻转</string>
+    <string name="edit_rotate">旋转</string>
+    <!-- Edit Bar -->
+    <string name="num_checked">已选择%d人</string>
+    <string name="delete">删除</string>
+    <string name="move_contact">移动分组</string>
+    <string name="mass_sms">群发短信</string>
+    <!-- Call Type -->
+    <string name="type_incoming">已接</string>
+    <string name="type_outgoing">拨出</string>
+    <string name="type_missed">未接</string>
+    <string name="type_unknown">未知</string>
+    <!-- Toast -->
+    <string name="toast_delete_contact">已删除联系人</string>
+    <string name="toast_delete_group">已删除分组</string>
+    <string name="toast_add_contact">已添加联系人</string>
+    <string name="toast_edit_contact">已保存联系人</string>
+    <string name="toast_name_empty">请输入联系人姓名</string>
+    <string name="toast_phone_empty">请输入联系人号码</string>
+    <string name="toast_group_existed">分组已存在</string>
+    <!--  -->
+    <string name="dialing_keyboard">拨号键盘</string>
+    <string name="dialing_call">打电话</string>
+    <string name="dialing_sms">发短信</string>
+    <string name="dialing_add_contact">添加到联系人</string>
+    <string name="private_number">私人号码</string>
+    <!-- pm=progress msg  进度条显示的提示信息 -->
+    <string name="pm_adding">正在添加</string>
+    <string name="pm_deleting">正在删除</string>
+    <string name="pm_saving">正在保存</string>
+    <string name="pm_moving">正在移动分组</string>
+
+</resources>

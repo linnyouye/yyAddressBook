@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:background="@drawable/bottom_bar_bg"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ibtnKeyboardDown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ibtn_selector"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_keyboard_down" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialing_btn_height"
+        android:background="#888888"
+        android:orientation="horizontal"
+        android:paddingTop="2dp" >
+
+        <Button
+            android:id="@+id/btnCall"
+            style="@style/DialogBtn"
+            android:layout_margin="3dp"
+            android:layout_weight="4"
+            android:background="@drawable/btn_call_selector"
+            android:drawableLeft="@drawable/icon_dialing_call"
+            android:ellipsize="start"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:shadowColor="#000"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textSize="21dp" />
+
+        <ImageButton
+            android:id="@+id/ibtnBackspace"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_btn_selector"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_backspace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#888888"
+        android:orientation="vertical"
+        android:padding="2dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialing_btn_height"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn1"
+                style="@style/DialogBtn"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btn2"
+                style="@style/DialogBtn"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/btn3"
+                style="@style/DialogBtn"
+                android:text="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialing_btn_height"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn4"
+                style="@style/DialogBtn"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/btn5"
+                style="@style/DialogBtn"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/btn6"
+                style="@style/DialogBtn"
+                android:text="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialing_btn_height"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn7"
+                style="@style/DialogBtn"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/btn8"
+                style="@style/DialogBtn"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/btn9"
+                style="@style/DialogBtn"
+                android:text="9" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialing_btn_height"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn10"
+                style="@style/DialogBtn"
+                android:text="*" />
+
+            <Button
+                android:id="@+id/btn0"
+                style="@style/DialogBtn"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btn11"
+                style="@style/DialogBtn"
+                android:text="#" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/AndroidStudioProjects/yyAddressBook/yyAddressBook/src/main/res/layout/dialing_keyboard.xml -->

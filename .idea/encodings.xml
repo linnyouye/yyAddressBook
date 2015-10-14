@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/yyAddressBook/src/main/java/com/lyy/widget/ViewHolder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyAddressBook/src/main/java/com/lyy/yyaddressbook/entity/Attribution.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyAddressBook/src/main/java/com/lyy/yyaddressbook/entity/Contact.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyAddressBook/src/main/java/com/lyy/yyaddressbook/local/GroupManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyAddressBook/src/main/java/com/lyy/yyaddressbook/ui/BaseActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyAddressBook/src/main/java/com/lyy/yyaddressbook/ui/ContactInfoActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyAddressBook/src/main/java/com/lyy/yyaddressbook/ui/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyAddressBook/src/main/java/com/lyy/yyaddressbook/ui/MyProgressDialog.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyAddressBook/src/main/java/com/lyy/yyaddressbook/ui/PickImageActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyAddressBook/src/main/java/com/lyy/yyaddressbook/utils/AttributionUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyAddressBook/src/main/java/com/lyy/yyaddressbook/utils/AvatarsUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyAddressBook/src/main/java/com/lyy/yyaddressbook/utils/ContactUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyAddressBook/src/main/java/com/lyy/yyaddressbook/utils/DESUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyAddressBook/src/main/java/com/lyy/yyaddressbook/utils/FileUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyAddressBook/src/main/java/com/lyy/yyaddressbook/utils/HtmlParser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyAddressBook/src/main/java/com/lyy/yyaddressbook/utils/ResHelper.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="open_sdk_r4547_lite">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/yyAddressBook/libs/open_sdk_r4547_lite.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

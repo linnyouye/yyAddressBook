@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape android:shape="rectangle" >
+            <corners android:radius="@dimen/item_radius" />
+
+            <solid android:color="@color/red_pressed" />
+        </shape>
+    </item>
+    <item android:bottom="2px">
+        <shape android:shape="rectangle" >
+            <corners android:radius="@dimen/item_radius" />
+
+            <solid android:color="@color/red_normal" />
+        </shape>
+    </item>
+
+</layer-list><!-- From: file:/D:/AndroidStudioProjects/yyAddressBook/yyAddressBook/src/main/res/drawable/btn_red_normal.xml -->

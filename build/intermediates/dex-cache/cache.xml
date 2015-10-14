@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\AndroidStudioProjects\yyAddressBook\yyAddressBook\libs\open_sdk_r4547_lite.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4a69b33758dcba3ef519cbd4b6c8af5f41603c4f">
+        <dex dex="D:\AndroidStudioProjects\yyAddressBook\yyAddressBook\build\intermediates\pre-dexed\debug\open_sdk_r4547_lite-4ff5b9522f4a7ceac96ac261087d383fdb188c6c.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\yyAddressBook\yyAddressBook\src\main\java\lib\jsoup-1.6.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b65281e9d00f255cdfab9e1880f7fc7a1fb1bffb">
+        <dex dex="D:\AndroidStudioProjects\yyAddressBook\yyAddressBook\build\intermediates\pre-dexed\debug\jsoup-1.6.1-2553157cb0bcedbba81d73d8b09cde79327c421c.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\yyAddressBook\yyAddressBook\src\main\java\lib\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0725d32f682f72bdfb3f61a2cd04dc3763710b6c">
+        <dex dex="D:\AndroidStudioProjects\yyAddressBook\yyAddressBook\build\intermediates\pre-dexed\debug\android-support-v4-6e73bbc3f5b6f954263b403ab3908375e601bb5f.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\yyAddressBook\yyAddressBook\libs\umeng-analytics-v5.2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0f9eccf79ae6006e4346725b09114182dca0c023">
+        <dex dex="D:\AndroidStudioProjects\yyAddressBook\yyAddressBook\build\intermediates\pre-dexed\debug\umeng-analytics-v5.2.4-8ed5a691c6b7262815947527a0bbea3942f330e0.jar" />
+    </item>
+
+</items>

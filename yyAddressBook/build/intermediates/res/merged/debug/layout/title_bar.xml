@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_bar_height"
+    android:background="@drawable/title_bar_bg"
+    android:orientation="horizontal" >
+
+    <Button
+        style="@style/TitleButton"
+        android:clickable="false"
+        android:text="@string/app_name" />
+
+    <ImageButton
+        android:id="@+id/ibtnAdd"
+        style="@style/TitleBarIbtn"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/ibtn_description"
+        android:src="@drawable/icon_add" />
+
+    <ImageButton
+        android:id="@+id/ibtnSearch"
+        style="@style/TitleBarIbtn"
+        android:layout_toLeftOf="@id/ibtnAdd"
+        android:contentDescription="@string/ibtn_description"
+        android:src="@drawable/icon_search" />
+
+</RelativeLayout><!-- From: file:/D:/AndroidStudioProjects/yyAddressBook/yyAddressBook/src/main/res/layout/title_bar.xml -->

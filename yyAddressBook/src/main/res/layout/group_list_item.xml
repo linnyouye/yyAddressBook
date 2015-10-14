@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_selector" >
+
+    <ImageView
+        android:id="@id/drag_handle"
+        android:layout_width="@dimen/head_img_size"
+        android:layout_height="@dimen/head_img_size"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:contentDescription="@string/ibtn_description"
+        android:padding="17dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_sort" />
+
+    <TextView
+        android:id="@+id/tvNum"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/drag_handle"
+        android:gravity="right"
+        android:paddingRight="5dp"
+        android:textColor="@color/child_tv_phone"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tvGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/tvNum"
+        android:gravity="center_vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:textColor="@color/child_tv_name"
+        android:textSize="@dimen/group_name" />
+
+</RelativeLayout>

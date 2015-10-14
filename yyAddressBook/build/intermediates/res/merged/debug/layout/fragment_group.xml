@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_background"
+    android:orientation="vertical" >
+
+    <com.lyy.yyaddressbook.dslv.DragSortListView
+        xmlns:dslv="http://schemas.android.com/apk/res/com.lyy.yyaddressbook"
+        android:id="@+id/dsListView"
+        style="@style/ListView"
+        dslv:click_remove_id="@id/click_remove"
+        dslv:collapsed_height="1px"
+        dslv:drag_enabled="true"
+        dslv:drag_handle_id="@id/drag_handle"
+        dslv:drag_scroll_start="0.33"
+        dslv:drag_start_mode="onDown"
+        dslv:float_alpha="0.6"
+        dslv:remove_enabled="false"
+        dslv:slide_shuffle_speed="0.3" />
+
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:background="@drawable/bottom_bar_bg" >
+
+        <ImageButton
+            android:id="@+id/ibtnAddGroup"
+            style="@style/BottomIbtn"
+            android:contentDescription="@string/ibtn_description"
+            android:paddingBottom="5dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/icon_add_group" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/AndroidStudioProjects/yyAddressBook/yyAddressBook/src/main/res/layout/fragment_group.xml -->

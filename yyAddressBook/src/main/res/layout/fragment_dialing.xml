@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_bar_bg" >
+
+        <ImageButton
+            android:id="@+id/ibtnKeyboardUp"
+            style="@style/BottomIbtn"
+            android:contentDescription="@string/ibtn_description"
+            android:paddingTop="5dp"
+            android:src="@drawable/icon_keyboard_up" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        style="@style/ListView"
+        android:layout_above="@id/bottomBar" >
+    </ListView>
+
+    <ListView
+        android:id="@+id/searchResultLv"
+        style="@style/ListView"
+        android:layout_above="@id/bottomBar"
+        android:visibility="gone" >
+    </ListView>
+
+    <include
+        android:id="@+id/dialingKeyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/dialing_keyboard"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListItem" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:id="@+id/tvName"
+            style="@style/TvChildName"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvPhone"
+            style="@style/TvChildPhone" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ibtnCall"
+        style="@style/RoundIbtn"
+        android:background="@drawable/icon_call"
+        android:contentDescription="@string/ibtn_description" />
+
+</LinearLayout><!-- From: file:/D:/AndroidStudioProjects/yyAddressBook/yyAddressBook/src/main/res/layout/search_result_item.xml -->
