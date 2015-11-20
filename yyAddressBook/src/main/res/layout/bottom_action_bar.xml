@@ -19,6 +19,6 @@
         style="@style/BottomIbtn"
         android:contentDescription="@string/ibtn_description"
         android:padding="10dp"
-        android:src="@drawable/icon_add_" />
+        android:src="@drawable/ic_add" />
 
 </LinearLayout>

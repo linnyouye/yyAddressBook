@@ -29,9 +29,8 @@
             android:id="@+id/ibtnAddGroup"
             style="@style/BottomIbtn"
             android:contentDescription="@string/ibtn_description"
-            android:paddingBottom="5dp"
-            android:paddingTop="8dp"
-            android:src="@drawable/icon_add_group" />
+            android:padding="10dp"
+            android:src="@drawable/ic_add" />
     </LinearLayout>
 
 </LinearLayout><!-- From: file:/D:/AndroidStudioProjects/yyAddressBook/yyAddressBook/src/main/res/layout/fragment_group.xml -->

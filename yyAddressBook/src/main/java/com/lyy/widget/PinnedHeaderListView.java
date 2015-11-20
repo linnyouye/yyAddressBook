@@ -182,11 +182,11 @@ public class PinnedHeaderListView extends ExpandableListView implements
 
 			if (currentFoatItem == firstVisibleItem) {
 				View v = getChildAt(0);
-				v.setVisibility(View.INVISIBLE);
+				//v.setVisibility(View.INVISIBLE);
 				mInvisibleItems.add(v);
 			} else {
 				for (View v : mInvisibleItems) {
-					v.setVisibility(View.VISIBLE);
+					//v.setVisibility(View.VISIBLE);
 				}
 				mInvisibleItems.clear();
 			}

@@ -15,8 +15,8 @@
             android:id="@+id/ibtnKeyboardUp"
             style="@style/BottomIbtn"
             android:contentDescription="@string/ibtn_description"
-            android:paddingTop="5dp"
-            android:src="@drawable/icon_keyboard_up" />
+            android:padding="10dp"
+            android:src="@drawable/ic_kb_up" />
     </LinearLayout>
 
     <ListView

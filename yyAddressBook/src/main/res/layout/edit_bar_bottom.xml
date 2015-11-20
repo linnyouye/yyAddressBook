@@ -17,13 +17,15 @@
         android:id="@+id/btnMove"
         style="@style/BottomIbtn"
         android:text="@string/move_contact" />
-
-    <LinearLayout style="@style/BottomDivider" >
+    <LinearLayout style="@style/BottomDivider"
+        android:visibility="gone">
     </LinearLayout>
 
     <Button
         android:id="@+id/btnSms"
+        android:visibility="gone"
         style="@style/BottomIbtn"
         android:text="@string/mass_sms" />
+
 
 </LinearLayout>

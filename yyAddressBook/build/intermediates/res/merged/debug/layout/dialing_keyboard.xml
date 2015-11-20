@@ -4,20 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical" >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/bottom_bar_height"
-        android:background="@drawable/bottom_bar_bg"
-        android:orientation="horizontal" >
 
-        <ImageButton
-            android:id="@+id/ibtnKeyboardDown"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/ibtn_selector"
-            android:scaleType="fitCenter"
-            android:src="@drawable/icon_keyboard_down" />
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -144,6 +131,22 @@
                 style="@style/DialogBtn"
                 android:text="#" />
         </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:background="@drawable/bottom_bar_bg"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ibtnKeyboardDown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="@drawable/ibtn_selector"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_kb_down" />
     </LinearLayout>
 
 </LinearLayout><!-- From: file:/D:/AndroidStudioProjects/yyAddressBook/yyAddressBook/src/main/res/layout/dialing_keyboard.xml -->
